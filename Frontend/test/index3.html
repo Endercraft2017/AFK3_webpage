@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Startup — Light & Dark Mockup</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <!-- Top Navigation -->
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#">
+          <!-- Replace src with your logo file -->
+          <img class="logo" src="../Logo/afk_logo.svg" alt="Company logo" />
+          <span>Acme Startup</span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+          <button id="themeToggle" class="toggle" aria-label="Toggle theme">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="toggle-label">Dark</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container grid hero-grid">
+        <div class="hero-content">
+          <h1 class="headline">Empowering<br />Your Startup</h1>
+          <p class="sub">
+            Build faster with a modern stack, clear strategy, and a partner that
+            cares.
+          </p>
+          <div class="actions">
+            <a class="btn btn-accent" href="#">Get Started</a>
+            <a class="btn btn-ghost" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="section">
+      <div class="container cards">
+        <article class="card">
+          <div class="icon">
+            <!-- check icon -->
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" />
+            </svg>
+          </div>
+          <h3>High Quality</h3>
+          <p>
+            Solid engineering, clean UX, and maintainable code from day one.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">
+            <!-- rocket icon -->
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2c3 0 5 2 5 5 0 4-4 8-6 9-1 0-3-2-3-3 1-2 5-6 9-6 0-3-2-5-5-5zm-2 18-2-2-4 1 1-4-2-2 5-1c.3 1.1 1 2.1 1.9 3 .9.9 1.9 1.6 3 1.9l-1 5z"
+              />
+            </svg>
+          </div>
+          <h3>Innovation</h3>
+          <p>
+            We iterate quickly and ship features that actually move the needle.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">
+            <!-- growth bars icon -->
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M5 21h2V10H5v11zm6 0h2V6h-2v15zm6 0h2V3h-2v18z" />
+            </svg>
+          </div>
+          <h3>Growth</h3>
+          <p>
+            From MVP to scale, we help you find product-market fit and beyond.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container foot-inner">
+        <p>© <span id="year"></span> Acme Startup. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script3.js"></script>
+  </body>
+</html>
